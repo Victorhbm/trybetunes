@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trybetunes/static/css/main.c0f7a6ce.chunk.css",
-    "main.js": "/trybetunes/static/js/main.469dd634.chunk.js",
-    "main.js.map": "/trybetunes/static/js/main.469dd634.chunk.js.map",
+    "main.js": "/trybetunes/static/js/main.ad35dc84.chunk.js",
+    "main.js.map": "/trybetunes/static/js/main.ad35dc84.chunk.js.map",
     "runtime-main.js": "/trybetunes/static/js/runtime-main.66814c5b.js",
     "runtime-main.js.map": "/trybetunes/static/js/runtime-main.66814c5b.js.map",
     "static/js/2.ff2b5065.chunk.js": "/trybetunes/static/js/2.ff2b5065.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.66814c5b.js",
     "static/js/2.ff2b5065.chunk.js",
     "static/css/main.c0f7a6ce.chunk.css",
-    "static/js/main.469dd634.chunk.js"
+    "static/js/main.ad35dc84.chunk.js"
   ]
 }
