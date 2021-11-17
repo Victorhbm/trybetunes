@@ -31,12 +31,12 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/">
-            {logado ? <Redirect to="/search" /> : (
+          <Route exact path="/trybetunes/">
+            {logado ? <Redirect to="trybetunes/search" /> : (
               <Login changeState={ this.changeState } />
             )}
           </Route>
-          <Route exact path="/search" component={ Search } />
+          <Route exact path="trybetunes/search" component={ Search } />
           <Route
             exact
             path="/album/:id"
