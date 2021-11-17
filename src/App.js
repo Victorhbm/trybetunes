@@ -31,7 +31,7 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="trybetunes/search" component={ Search } />
+          <Route exact path="/trybetunes/search" component={ Search } />
           <Route
             exact
             path="/trybetunes/album/:id"
@@ -41,7 +41,7 @@ class App extends React.Component {
           <Route exact path="/trybetunes/profile" component={ Profile } />
           <Route exact path="/trybetunes/profile/edit" component={ ProfileEdit } />
           <Route path="/trybetunes/">
-            {logado ? <Redirect to="trybetunes/search" /> : (
+            {logado ? <Redirect to="/trybetunes/search" /> : (
               <Login changeState={ this.changeState } />
             )}
           </Route>
