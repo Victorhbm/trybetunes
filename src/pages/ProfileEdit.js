@@ -85,7 +85,7 @@ class ProfileEdit extends Component {
       profileEdited,
     } = this.state;
 
-    if (profileEdited) return <Redirect to="/profile" />;
+    if (profileEdited) return <Redirect to="/trybetunes/profile" />;
 
     return (
       <div data-testid="page-profile-edit">

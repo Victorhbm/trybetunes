@@ -6,7 +6,6 @@ import Album from './pages/Album';
 import Favorites from './pages/Favorites';
 import Profile from './pages/Profile';
 import ProfileEdit from './pages/ProfileEdit';
-import NotFound from './pages/NotFound';
 
 class App extends React.Component {
   constructor() {
@@ -41,7 +40,7 @@ class App extends React.Component {
           <Route exact path="/trybetunes/profile" component={ Profile } />
           <Route exact path="/trybetunes/profile/edit" component={ ProfileEdit } />
           <Route path="/trybetunes/">
-            {logado ? <Redirect to="/search" /> : (
+            {logado ? <Redirect to="/trybetunes/search" /> : (
               <Login changeState={ this.changeState } />
             )}
           </Route>
