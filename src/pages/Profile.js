@@ -50,7 +50,7 @@ class Profile extends Component {
                   src={ image }
                   alt={ name }
                 />
-                <Link id="edit-btn" to="/profile/edit">Editar perfil</Link>
+                <Link id="edit-btn" to="/trybetunes/profile/edit">Editar perfil</Link>
               </div>
               <div id="profile-info-container">
                 <div className="profile-info-content">

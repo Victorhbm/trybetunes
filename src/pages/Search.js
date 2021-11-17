@@ -90,7 +90,7 @@ class Search extends Component {
                     <Link
                       className="albuns"
                       key={ artist.collectionId }
-                      to={ `/album/${artist.collectionId}` }
+                      to={ `/trybetunes/album/${artist.collectionId}` }
                       data-testid={ `link-to-album-${artist.collectionId}` }
                     >
                       <div className="album-content">

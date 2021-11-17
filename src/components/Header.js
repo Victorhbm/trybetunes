@@ -44,17 +44,17 @@ export default class Header extends Component {
 
         <div id="header-menu">
           <ul id="menu-list">
-            <Link data-testid="link-to-search" to="/search">
+            <Link data-testid="link-to-search" to="/trybetunes/search">
               <li>
                 Pesquisa
               </li>
             </Link>
-            <Link data-testid="link-to-favorites" to="/favorites">
+            <Link data-testid="link-to-favorites" to="/trybetunes/favorites">
               <li>
                 Favoritas
               </li>
             </Link>
-            <Link data-testid="link-to-profile" to="/profile">
+            <Link data-testid="link-to-profile" to="/trybetunes/profile">
               <li>
                 Perfil
               </li>
