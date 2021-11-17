@@ -41,7 +41,7 @@ class App extends React.Component {
           <Route exact path="/trybetunes/profile" component={ Profile } />
           <Route exact path="/trybetunes/profile/edit" component={ ProfileEdit } />
           <Route path="/trybetunes/">
-            {logado ? <Redirect to="/trybetunes/search" /> : (
+            {logado ? <Redirect to="/search" /> : (
               <Login changeState={ this.changeState } />
             )}
           </Route>
